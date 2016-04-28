@@ -1328,12 +1328,12 @@ var jackpotAI = {
   bot9: ["Nino Triste", 3, "https://i.imgur.com/n1iHk8a.png"],
   bot10: ["Lucky", 4, "https://i.imgur.com/Dg7cI81.png"],
   bot11: ["seif.", 4, "https://i.imgur.com/gcieULF.png"],
-  bot12: ["SirRazor", 5, "http://i.imgur.com/4WA3vTU.jpg"],
+  bot12: ["SirRazor", 5, "http://i.imgur.com/4WA3vTU.jpg"],//Add razor to 8
   bot13: ["buckETS | Trading", 5, "https://i.imgur.com/wSVK1bt.png"],
   bot14: ["banned", 6, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/57/575daf48a20828cb6470193b7067d2782aa5ff0f_full.jpg"],
-  bot15: ["Roflzilla", 6, "https://i.imgur.com/prnsggZ.png"],
+  bot15: ["MyBack", 6, "http://i.imgur.com/sDpf0y3.jpg"],
   bot16: ["Skittle", 7, "http://i.imgur.com/Zi9J6CJ.jpg"],
-  bot17: ["Platinum (diff7)", 7, "https://i.imgur.com/BzuCWzL.png"],
+  bot17: ["SirRazor", 7, "http://i.imgur.com/4WA3vTU.jpg"],
   bot18: ["DennyB", 8, "http://i.imgur.com/VNE57CT.jpg"],
   bot19: ["King of KFC Jamal", 9, "http://i.imgur.com/XhFlH2S.jpg"]
 };
