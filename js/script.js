@@ -1138,6 +1138,8 @@ $(".stackingUpgradeContainer").on("click", ".upgrade", function() {
     keyDiscount += stackingUpgrades[this.id]["kp"];
     caseDiscount += stackingUpgrades[this.id]["cp"];
     inventoryMax += stackingUpgrades[this.id]["is"];
+	jackpotUnlocked += stackingUpgrades[this.id]["ju"];
+	acceptMoneyPerClick += stackingUpgrades[this.id]["mc"];
     stackingUpgradesPurchased[this.id] += 1;
   }
   caseInfo();
@@ -1149,13 +1151,15 @@ $(".stackingUpgradeContainer").on("click", ".upgrade", function() {
 var stackingUpgrades = {
   upgrade1: {name: "Inventory Space", desc: "+1 to your max inventory space.", basePrice: 15, price: 15, cp: 0.00, kp: 0.00, is: 1, img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"},
   upgrade2: {name: "Key Discount", desc: "Discount Key Prices", basePrice: 150, price: 150, cp: 0.00, kp: 0.05, is: 0, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUlrBpNQ0LvROW-0vDYVkRLNhRStbOkJzgxnaXLdDkTuNnmzYbak6byYb2ExGoHvJ1z2b7Fp9igjlflrUJoYmCiJ4KLMlhpukSlLYY/100fx100f"},
-  //upgrade3: {name: "Random Knife", desc: "Get a random knife", basePrice: 500, price: 500, cp: 0.00, kp: 0.00, is: 0, kf: "regular", img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"}
-  //upgrade4: {name: "Inventory Space II", desc: "Inventory Space: +5", price: 75, cp: 0.00, kp: 0.00, is: 5, img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"}
+  upgrade3: {name: "Jackpot", desc: "Unlock Jackpot", basePrice: 500, price: 500, cp: 0.00, kp: 0.00, is: 0, ju: "true", img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"},
+  upgrade4: {name: "More Money", desc: "More money per click +10", basePrice: 10, price: 10, cp: 0.00, kp: 0.00, is: 5, mc:0.10, img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"}
 };
 
 var stackingUpgradesPurchased = {
   upgrade1: 0,
-  upgrade2: 0
+  upgrade2: 0,
+  upgrade3: 0,
+  upgrade4: 0
 };
 
 function drawPermUpgradeContainer() {
@@ -1185,6 +1189,8 @@ function buyUpgrade(id) {
   keyDiscount += stackingUpgrades[id]["kp"];
   caseDiscount += stackingUpgrades[id]["cp"];
   inventoryMax += stackingUpgrades[id]["is"];
+  jackpotUnlocked += stackingUpgrades[this.id]["ju"];
+  acceptMoneyPerClick += stackingUpgrades[this.id]["mc"];
   caseInfo();
 }
 
@@ -1204,7 +1210,7 @@ $(".caseContainer").on('click', '.case', function() {
 
 
 /*===============JACKPOT===============*/
-var jackpotUnlocked = true;
+var jackpotUnlocked = false;
 var jackpotInProgress = false;
 var swapSkins = 0;
 var maxSwapSkins = 7;
