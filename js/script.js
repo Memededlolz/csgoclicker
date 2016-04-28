@@ -1313,7 +1313,7 @@ setTimeout(function() {
 
 setInterval(function() {
   saveGameState();
-}, 30000);
+}, 3000);
 
 /*===============SAVEGAME===============*/
 function saveGameState() {
