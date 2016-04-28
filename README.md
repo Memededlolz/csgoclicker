@@ -2,4 +2,4 @@
 A CSGO based incremental game.
 Initial Release
 -------------------------------
-https://KingofKFCJamal.github.io/CaseClicker
+https://KingofKFCJamal.github.io/
