@@ -3595,7 +3595,7 @@ $(".inventoryItemContainer").on("click", ".inventoryItem", function() {
     $(".tooltipAnchor").hide();
     var item = eval(atob(inventory[this.id]));
     //console.log(item);
-$('#menuclick')[0].play();
+$('#player_btn_0_4')[0].play();
     inventoryCurrent -= 1;
     money += (item['price']);
     //console.log(item['price']);
@@ -3610,7 +3610,7 @@ $('#menuclick')[0].play();
 $("#case").click(function() {
   if (inventoryCurrent < inventoryMax) {
     var price = (operationCases[currentCase]["price"] - caseDiscount) + (keyPrice - keyDiscount);
-	$('#itemreveal')[0].play();
+	$('#player_btn_0_5')[0].play();
     if (price >= 0 && money >= price) {
       money -= price;
       randSkin();
@@ -3625,7 +3625,7 @@ $(".jackpotDifficulty").click(function() {
   if (!jackpotInProgress) {
     $(".jackpotDifficultyContainer div").removeClass("active");
     $(this).addClass("active");
-	$('#menuclick')[0].play();
+	$('#player_btn_0_4')[0].play();
     jackpotDifficulty = this.id;
 
   }
@@ -3633,17 +3633,17 @@ $(".jackpotDifficulty").click(function() {
 
 $(".modalMain").on("click", ".modalClose", function() {
   $('.modalWindow').toggle();
-  $('#menuclick')[0].play();
+  $('#player_btn_0_4')[0].play();
 });
 
 $("#acceptButton").click(function() {
   money += acceptMoneyPerClick;
-$('#click')[0].play();  
+$('#player_btn_0_3')[0].play();  
 });
 
 $(".about").click(function() {
   $(".main").toggleClass("small");
-  $('#menuclick')[0].play();
+  $('#player_btn_0_4')[0].play();
 });
 
 /*===============TABS===============*/
@@ -3658,7 +3658,7 @@ $("#caseTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").show();
-	$('#menuclick')[0].play();
+	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3678,7 +3678,7 @@ $("#inventoryTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").show();
     $(".caseContainer").hide();
-	$('#menuclick')[0].play();
+	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3698,7 +3698,7 @@ $("#upgradeTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").hide();
-	$('#menuclick')[0].play();
+	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3720,7 +3720,7 @@ $("#jackpotTab").click(function() {
       $(".jackpotRightContainer").show();
       $(".inventoryContainer").hide();
       $(".caseContainer").hide();
-	  $('#menuclick')[0].play();
+	  $('#player_btn_0_4')[0].play();
       $(".tradeButtonContainer").hide();
       $(".rightMain").css("bottom","0");
       if ($(".unboxing").css('display') == 'block') {
@@ -3733,7 +3733,7 @@ $("#jackpotTab").click(function() {
 
 $('.settings').click(function() {
   $('.settingsList').toggleClass("hidden");
-  $('#menuclick')[0].play();
+  $('#player_btn_0_4')[0].play();
 });
 
 $('#popupCheckbox').change(function() {
@@ -3791,7 +3791,7 @@ function upgradeMultiplier(basePrice, amount) {
 $(".stackingUpgradeContainer").on("click", ".upgrade", function() {
   var name = stackingUpgrades[this.id]["name"];
   var desc = stackingUpgrades[this.id]["desc"];
-  $('#menuclick')[0].play();
+  $('#player_btn_0_4')[0].play();
 
   if (money >= stackingUpgrades[this.id]["price"]) {
     money -= stackingUpgrades[this.id]["price"];
@@ -3888,7 +3888,7 @@ $(".jackpotRightPlayer").on("click", ".inventorySwapItem", function() {
         jackpotInventory[this.id] = inventory[this.id];
         drawSwappedItem(item.name, item.price, item.img, this.id);
         swapSkins += 1;
-		$('#menuclick')[0].play();
+		$('#player_btn_0_4')[0].play();
         swapSkinsValue += item.price;
         updateSwapInfo();
         //delete inventory[this.id];
@@ -4263,7 +4263,7 @@ function jackpotStart() {
           var botSelector = "deposit" + depositTicker;
 
           $('#' + botSelector).append('<div class="depositorSkin ' + rarity + '" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
-		  $('#throw-in-sound')[0].play();
+		  $('#player_btn_0_1')[0].play();
           //console.log(randomBot);
       }
 
@@ -4303,7 +4303,7 @@ function jackpotStart() {
       $(".winnerIs").html("You Win!");
       $("#playerDepositor").addClass("winner");
       console.log("You Win!");
-	  $('#win-pot-sound')[0].play();
+	  $('#player_btn_0_2')[0].play();
       inventoryCurrent += Object.keys(pot).length;
       $.extend(inventory, pot);
       skinOverflow();
@@ -4319,7 +4319,7 @@ function jackpotStart() {
           $(".winnerIs").html("Winner is: " + jackpotAI[players[i]][0] + " with " + (botTicketsOwned / totalTickets * 100).toFixed(2) + "%");
           $("#jackpotDepositor" + players[i]).addClass("winner");
           console.log(players[i]);
-		  $('#start-game-sound')[0].play();
+		  $('#player_btn_0_0')[0].play();
           itemCounter -= jackpotItemCounter;
           break;
         } else {
