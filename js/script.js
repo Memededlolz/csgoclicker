@@ -1682,7 +1682,7 @@ var stackingUpgrades = {
   upgrade2: {name: "Key Discount", desc: "Discount Key Prices", basePrice: 150, price: 150, cp: 0.00, kp: 0.05, is: 0, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXX7gNTPcUlrBpNQ0LvROW-0vDYVkRLNhRStbOkJzgxnaXLdDkTuNnmzYbak6byYb2ExGoHvJ1z2b7Fp9igjlflrUJoYmCiJ4KLMlhpukSlLYY/100fx100f"},
 
 
-  upgrade4: {name: "More Money", desc: "More money per click +10", basePrice: 5000, price: 5000, cp: 0.00, kp: 0.00, is: 0, mc:0.10, img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"}
+  upgrade4: {name: "More Money", desc: "More money per click +10", basePrice: 500, price: 500, cp: 0.00, kp: 0.00, is: 0, mc:0.10, img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"}
 };
 
 var stackingUpgradesPurchased = {
