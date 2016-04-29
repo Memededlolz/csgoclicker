@@ -2407,7 +2407,7 @@ function randSkin() {
        rarity = "classified";
      } else if (randNum >= rarityValue.classified && randNum <= rarityValue.covert) {
        rarity = "covert";
-     } else if (randNum >= rarityValue.classified && randNum <= rarityValue.stattrak) {
+     } else if (randNum >= rarityValue.covert && randNum <= rarityValue.stattrak) {
        rarity = "stattrak";
      } else {
        rarity = "knife";
@@ -2911,31 +2911,42 @@ function updateSwapInfo() {
 
 //{name: "", difficulty: 1, profilePic: ""},
 var jackpotAI = {
-  bot1: ["jGal | CSGOClicker.net", 8, "https://i.imgur.com/WTjn0MM.png"],
-  bot2: ["exochase", 8, "https://i.imgur.com/za6Y17z.png"],
-  bot3: ["S5E3", 8, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/62/62001ac6b067182b65f92fa07797c630af64bb4a_full.jpg"],
-  bot4: ["MR.BEATS", 8, "https://i.imgur.com/dIs0yE8.png"],
-  bot5: ["CockCrusher19", 8, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/03/03b0621515c85e256c20a8f169737430fa57281d_full.jpg"],
-  bot6: ["Octane | n OU", 8, "https://i.imgur.com/P2hwwIE.png"],
-  bot7: ["Moon Cricket Butler", 8, "https://i.imgur.com/qNsPKRH.png"],
-  bot8: ["filsmick", 8, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c3/c31d18ad931fd685ca3af5700db6a461e10bcfe8_full.jpg"],
-  bot9: ["Earth", 8, "http://i.imgur.com/uwIoGpM.jpg"],
-  bot10: ["UnderWater", 9, "http://i.imgur.com/7BTk8ig.jpg"],
-  bot11: ["Morty", 9, "https://i.imgur.com/Skzow5x.jpg"],
-  bot12: ["Doge", 9, "https://i.gyazo.com/c69e8efdccc0c9a03f69df5206a57d21.png"],
-  bot13: ["MyBack", 9, "https://i.imgur.com/sDpf0y3.jpg"],
-  bot14: ["Skittle", 9, "https://i.imgur.com/Zi9J6CJ.jpg"],
-  bot15: ["SirRazor", 9, "https://i.imgur.com/4WA3vTU.jpg"],
-  bot16: ["DennyB", 9, "https://i.imgur.com/VNE57CT.jpg"],
-  bot17: ["Bio", 9, "http://i.imgur.com/acTRiBk.jpg"],
-  bot18: ["Tiny", 9, "https://i.imgur.com/2aOas2H.jpg"],
-  bot19: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"]
+  bot1: ["jGal | CSGOClicker.net", 1, "https://i.imgur.com/WTjn0MM.png"],
+  bot2: ["exochase", 1, "https://i.imgur.com/za6Y17z.png"],
+  bot3: ["S5E3", 1, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/62/62001ac6b067182b65f92fa07797c630af64bb4a_full.jpg"],
+  bot4: ["MR.BEATS", 2, "https://i.imgur.com/dIs0yE8.png"],
+  bot5: ["CockCrusher19", 2, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/03/03b0621515c85e256c20a8f169737430fa57281d_full.jpg"],
+  bot6: ["Octane | n OU", 2, "https://i.imgur.com/P2hwwIE.png"],
+  bot7: ["Moon Cricket Butler", 3, "https://i.imgur.com/qNsPKRH.png"],
+  bot8: ["filsmick", 3, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c3/c31d18ad931fd685ca3af5700db6a461e10bcfe8_full.jpg"],
+  bot9: ["Nino Triste", 3, "https://i.imgur.com/n1iHk8a.png"],
+  bot10: ["Lucky", 4, "https://i.imgur.com/Dg7cI81.png"],
+  bot11: ["seif.", 4, "https://i.imgur.com/gcieULF.png"],
+  bot12: ["Plebeian", 4, "https://i.imgur.com/ZjMTocK.png"],
+  bot13: ["buckETS | Trading", 5, "https://i.imgur.com/wSVK1bt.png"],
+  bot14: ["banned", 5, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/57/575daf48a20828cb6470193b7067d2782aa5ff0f_full.jpg"],
+  bot15: ["Roflzilla", 5, "https://i.imgur.com/prnsggZ.png"],
+  bot16: ["Jainxu", 6, "https://i.imgur.com/nwEsAGH.png"],
+  bot17: ["Platinum (diff7)", 6, "https://i.imgur.com/BzuCWzL.png"],
+  bot18: ["sp00ky gh0stman", 6, "https://i.imgur.com/ISxQyow.png"],
+  bot19: ["storM", 7, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e5/e51667b64e8591b8428b4fc268fc826f21a982cf_full.jpg"],
+  bot20: ["Earth", 8, "http://i.imgur.com/uwIoGpM.jpg"],
+  bot21: ["UnderWater", 8, "http://i.imgur.com/7BTk8ig.jpg"],
+  bot22: ["Morty", 8, "https://i.imgur.com/Skzow5x.jpg"],
+  bot23: ["Doge", 8, "https://i.gyazo.com/c69e8efdccc0c9a03f69df5206a57d21.png"],
+  bot24: ["MyBack", 8, "https://i.imgur.com/sDpf0y3.jpg"],
+  bot25: ["Skittle", 8, "https://i.imgur.com/Zi9J6CJ.jpg"],
+  bot26: ["SirRazor", 8, "https://i.imgur.com/4WA3vTU.jpg"],
+  bot27: ["DennyB", 8, "https://i.imgur.com/VNE57CT.jpg"],
+  bot28: ["Bio", 8, "http://i.imgur.com/acTRiBk.jpg"],
+  bot29: ["Tiny", 8, "https://i.imgur.com/2aOas2H.jpg"],
+  bot30: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"]
 };
 
 var jackpotPots = {
-  low: ["bot1", "bot2", "bot3", "bot4", "bot5", "bot6", "bot7", "bot8", "bot9", "bot10", "bot11", "bot12", "bot13", "bot14", "bot15", "bot16", "bot17", "bot18", "bot19"],
-  medium: ["bot1", "bot2", "bot3", "bot4", "bot5", "bot6", "bot7", "bot8", "bot9", "bot10", "bot11", "bot12", "bot13", "bot14", "bot15", "bot16", "bot17", "bot18", "bot19"],
-  high: ["bot1", "bot2", "bot3", "bot4", "bot5", "bot6", "bot7", "bot8", "bot9", "bot10", "bot11", "bot12", "bot13", "bot14", "bot15", "bot16", "bot17", "bot18", "bot19"]
+  low: ["bot1", "bot2", "bot3", "bot4", "bot5", "bot6", "bot7", "bot8", "bot9"],
+  medium: ["bot10", "bot11", "bot12", "bot13", "bot14", "bot15", "bot16", "bot17", "bot18", "bot19"],
+  high: ["bot20", "bot21", "bot22", "bot23", "bot24", "bot25", "bot26", "bot27", "bot28", "bot29", "bot30"]
 }
 
 
@@ -3002,7 +3013,18 @@ function jackpotStart() {
     bot16: 0,
     bot17: 0,
     bot18: 0,
-    bot19: 0
+    bot19: 0,
+    bot20: 0,
+    bot21: 0,
+    bot22: 0,
+    bot23: 0,
+    bot24: 0,
+    bot25: 0,
+    bot26: 0,
+    bot27: 0,
+    bot28: 0,
+    bot29: 0,
+    bot30: 0
   };
   var playerTickets = 0;
   var totalTickets = 0;
