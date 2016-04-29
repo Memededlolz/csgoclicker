@@ -3595,6 +3595,7 @@ $(".inventoryItemContainer").on("click", ".inventoryItem", function() {
     $(".tooltipAnchor").hide();
     var item = eval(atob(inventory[this.id]));
     //console.log(item);
+$('#menuclick')[0].play();
     inventoryCurrent -= 1;
     money += (item['price']);
     //console.log(item['price']);
@@ -3609,6 +3610,7 @@ $(".inventoryItemContainer").on("click", ".inventoryItem", function() {
 $("#case").click(function() {
   if (inventoryCurrent < inventoryMax) {
     var price = (operationCases[currentCase]["price"] - caseDiscount) + (keyPrice - keyDiscount);
+	$('#itemreveal')[0].play();
     if (price >= 0 && money >= price) {
       money -= price;
       randSkin();
@@ -3623,7 +3625,7 @@ $(".jackpotDifficulty").click(function() {
   if (!jackpotInProgress) {
     $(".jackpotDifficultyContainer div").removeClass("active");
     $(this).addClass("active");
-
+	$('#menuclick')[0].play();
     jackpotDifficulty = this.id;
 
   }
@@ -3631,14 +3633,17 @@ $(".jackpotDifficulty").click(function() {
 
 $(".modalMain").on("click", ".modalClose", function() {
   $('.modalWindow').toggle();
+  $('#menuclick')[0].play();
 });
 
 $("#acceptButton").click(function() {
   money += acceptMoneyPerClick;
+$('#click')[0].play();  
 });
 
 $(".about").click(function() {
   $(".main").toggleClass("small");
+  $('#menuclick')[0].play();
 });
 
 /*===============TABS===============*/
@@ -3653,6 +3658,7 @@ $("#caseTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").show();
+	$('#menuclick')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3672,6 +3678,7 @@ $("#inventoryTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").show();
     $(".caseContainer").hide();
+	$('#menuclick')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3691,6 +3698,7 @@ $("#upgradeTab").click(function() {
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").hide();
+	$('#menuclick')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
     if ($(".unboxing").css('display') !== 'block') {
@@ -3712,6 +3720,7 @@ $("#jackpotTab").click(function() {
       $(".jackpotRightContainer").show();
       $(".inventoryContainer").hide();
       $(".caseContainer").hide();
+	  $('#menuclick')[0].play();
       $(".tradeButtonContainer").hide();
       $(".rightMain").css("bottom","0");
       if ($(".unboxing").css('display') == 'block') {
@@ -3724,6 +3733,7 @@ $("#jackpotTab").click(function() {
 
 $('.settings').click(function() {
   $('.settingsList').toggleClass("hidden");
+  $('#menuclick')[0].play();
 });
 
 $('#popupCheckbox').change(function() {
@@ -3733,7 +3743,6 @@ $('#popupCheckbox').change(function() {
     popup = true;
   }
 });
-
 $(".clearGameState").click(function() {
   clearGameState();
 });
@@ -3782,6 +3791,7 @@ function upgradeMultiplier(basePrice, amount) {
 $(".stackingUpgradeContainer").on("click", ".upgrade", function() {
   var name = stackingUpgrades[this.id]["name"];
   var desc = stackingUpgrades[this.id]["desc"];
+  $('#menuclick')[0].play();
 
   if (money >= stackingUpgrades[this.id]["price"]) {
     money -= stackingUpgrades[this.id]["price"];
@@ -3878,6 +3888,7 @@ $(".jackpotRightPlayer").on("click", ".inventorySwapItem", function() {
         jackpotInventory[this.id] = inventory[this.id];
         drawSwappedItem(item.name, item.price, item.img, this.id);
         swapSkins += 1;
+		$('#menuclick')[0].play();
         swapSkinsValue += item.price;
         updateSwapInfo();
         //delete inventory[this.id];
