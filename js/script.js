@@ -1872,7 +1872,7 @@ var jackpotAI = {
   bot18: ["DennyB", 8, "https://i.imgur.com/VNE57CT.jpg"],
   bot19: ["Bio", 8, "http://i.imgur.com/acTRiBk.jpg"],
   bot20: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"],
-  bot21: ["Tiny", 9, "http://imgur.com/2aOas2H"]
+  bot21: ["Tiny", 9, "https://i.imgur.com/2aOas2H.jpg"]
 };
 
 var jackpotPots = {
