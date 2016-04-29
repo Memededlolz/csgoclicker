@@ -1870,8 +1870,8 @@ var jackpotAI = {
   bot16: ["Skittle", 7, "https://i.imgur.com/Zi9J6CJ.jpg"],
   bot17: ["SirRazor", 8, "https://i.imgur.com/4WA3vTU.jpg"],
   bot18: ["DennyB", 8, "https://i.imgur.com/VNE57CT.jpg"],
-  bot19: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"],
-  bot20: ["Bio", 8, "http://i.imgur.com/acTRiBk.jpg"],
+  bot19: ["Bio", 8, "http://i.imgur.com/acTRiBk.jpg"],
+  bot20: ["King of KFC Jamal", 9, "https://i.imgur.com/XhFlH2S.jpg"],
   bot21: ["Tiny", 9, "http://imgur.com/2aOas2H"]
 };
 
