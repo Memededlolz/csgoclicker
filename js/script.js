@@ -4252,6 +4252,7 @@ function jackpotStart() {
           var botSelector = "deposit" + depositTicker;
 
           $('#' + botSelector).append('<div class="depositorSkin ' + rarity + '" title="' + name + '"><div class="itemPrice">' + price + '</div> <img src=' + img + '> </div>');
+		  $('#throw-in-sound')[0].play();
           //console.log(randomBot);
       }
 
@@ -4291,6 +4292,7 @@ function jackpotStart() {
       $(".winnerIs").html("You Win!");
       $("#playerDepositor").addClass("winner");
       console.log("You Win!");
+	  $('#win-pot-sound')[0].play();
       inventoryCurrent += Object.keys(pot).length;
       $.extend(inventory, pot);
       skinOverflow();
@@ -4306,6 +4308,7 @@ function jackpotStart() {
           $(".winnerIs").html("Winner is: " + jackpotAI[players[i]][0] + " with " + (botTicketsOwned / totalTickets * 100).toFixed(2) + "%");
           $("#jackpotDepositor" + players[i]).addClass("winner");
           console.log(players[i]);
+		  $('#start-game-sound')[0].play();
           itemCounter -= jackpotItemCounter;
           break;
         } else {
