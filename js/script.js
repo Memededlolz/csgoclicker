@@ -4303,7 +4303,7 @@ function jackpotStart() {
       for (var i = 0; i < players.length; i++) {
         var botTicketsOwned = botTickets[players[i]];
         if (randTicket <= (botTicketsOwned + ticketAdder) && randTicket > ticketAdder) {
-          $(".winnerIs").html("Winner is: " + jackpotAI[players[i]][0]);
+          $(".winnerIs").html("Winner is: " + jackpotAI[players[i]][0] + " with " + (botTicketsOwned / totalTickets * 100).toFixed(2) + "%");
           $("#jackpotDepositor" + players[i]).addClass("winner");
           console.log(players[i]);
           itemCounter -= jackpotItemCounter;
