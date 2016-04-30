@@ -9,7 +9,6 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/stylesheet.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="./css/stylesheet.css" media="screen" title="no title" charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<!--<script>
 function play_btn(x) {
@@ -38,12 +37,6 @@ $("audio").attr("volume", volumeRange.val());
         <ul>
           <li><a href="https://KingofKFCJamal.github.io/CaseClicker" class="headerLogo"></a></li>
           <div class="settings"></div>
-    <audio id="player_btn_0_0" class="Player" src="sounds/start-game.mp3" preload="none" type="audio/mp3"></audio>
-	<audio id="player_btn_0_1" class="Player" src="sounds/new-item.mp3" preload="none" type="audio/mp3"></audio>
-	<audio id="player_btn_0_2" class="Player" src="sounds/win-pot.mp3" preload="none" type="audio/mp3"></audio>
-	<audio id="player_btn_0_3" class="Player" src="sounds/click.wav" preload="none" type="audio/wav"></audio>
-	<audio id="player_btn_0_4" class="Player" src="sounds/menuclick.wav" preload="none" type="audio/wav"></audio>
-	<audio id="player_btn_0_5" class="Player" src="sounds/itemreveal.mp3" preload="none" type="audio/mp3"></audio>
 	<!-- <input type="range" name="Volume Changer" id="volume"> -->
           <div class="about">About</div>
         </ul>
@@ -155,6 +148,7 @@ $("audio").attr("volume", volumeRange.val());
             <div class="tab" id="upgradeTab">Shop</div>
             <div class="tab" id="caseTab">Case</div>
             <div class="tab" id="jackpotTab">Jackpot</div>
+			<div class="tab" id="audioTab">Audio</div>
           </div>
           <div class="rightMain">
             <div class="inventoryContainer">
@@ -217,7 +211,14 @@ $("audio").attr("volume", volumeRange.val());
                 <div class="jackpotRightStartButton">Enter Jackpot</div>
               </div>
             </div>
-          </div>
+			<div class="audioContainer">
+			    <audio id="player_btn_0_0" class="Player" src="sounds/start-game.mp3" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/mp3"></audio>				<b><font size="56" style="color:white;">Lost</font></b><br>
+	<audio id="player_btn_0_1" class="Player" src="sounds/new-item.mp3" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/mp3"></audio><b><font size="56" style="color:white;">Bot Threw In</font></b><br>
+	<audio id="player_btn_0_2" class="Player" src="sounds/win-pot.mp3" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/mp3"></audio><b><font size="56" style="color:white;">You won</font></b><br>
+	<audio id="player_btn_0_3" class="Player" src="sounds/click.wav" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/wav"></audio><b><font size="56" style="color:white;">Clicking Accept</font></b><br>
+	<audio id="player_btn_0_4" class="Player" src="sounds/menuclick.wav" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/wav"></audio><b><font size="56" style="color:white;">Menu Click</font></b><br>
+	<audio id="player_btn_0_5" class="Player" src="sounds/itemreveal.mp3" preload="none" controls="controls" onloadeddata="setHalfVolume()" type="audio/mp3"></audio><b><font size="56" style="color:white;">Unbox Case</font></b><br>
+			</div>
           <div class="tradeButtonContainer">
             <div class="tradeButton" id="acceptButton">ACCEPT</div>
           </div>

@@ -894,9 +894,10 @@ html, body {
 
 .tradeButtonContainer {
 	height: 135px;
-	position: absolute;
+	position: relative;
 	width: 100%;
-	bottom: 0;
+    bottom: 0;
+    left: 0;
 	border-top: 1px #186144 solid;
 }
 
@@ -962,6 +963,14 @@ html, body {
 }
 
 .caseContainer {
+	display: none;
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.audioContainer {
 	display: none;
 	height: 100%;
 	width: 100%;

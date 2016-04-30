@@ -3654,10 +3654,12 @@ $("#caseTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#upgradeTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
+    $("#audioTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").show();
+	$(".audioContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
@@ -3674,10 +3676,12 @@ $("#inventoryTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#upgradeTab").removeClass("active");
     $("#caseTab").removeClass("active");
+	$("#audioTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").show();
     $(".caseContainer").hide();
+	$(".audioContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
@@ -3694,10 +3698,12 @@ $("#upgradeTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#caseTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
+	$("#audioTab").removeClass("active");
     $(".upgradeContainer").show();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").hide();
+ 	$(".audioContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
@@ -3716,10 +3722,12 @@ $("#jackpotTab").click(function() {
       $("#upgradeTab").removeClass("active");
       $("#caseTab").removeClass("active");
       $("#inventoryTab").removeClass("active");
+	  $("#audioTab").removeClass("active");
       $(".upgradeContainer").hide();
       $(".jackpotRightContainer").show();
       $(".inventoryContainer").hide();
       $(".caseContainer").hide();
+	  $(".audioContainer").hide();
 	  $('#player_btn_0_4')[0].play();
       $(".tradeButtonContainer").hide();
       $(".rightMain").css("bottom","0");
@@ -3727,6 +3735,28 @@ $("#jackpotTab").click(function() {
         $(".unboxing").hide();
         $(".jackpot").show();
       }
+    }
+  }
+});
+
+$("#audioTab").click(function() {
+  if ($(".audioContainer").css('display') == 'none') {
+    $(this).toggleClass("active");
+    $("#jackpotTab").removeClass("active");
+    $("#upgradeTab").removeClass("active");
+    $("#inventoryTab").removeClass("active");
+    $("#caseTab").removeClass("active");
+    $(".upgradeContainer").hide();
+    $(".jackpotRightContainer").hide();
+    $(".audioContainer").show();
+    $(".caseContainer").hide();
+    $(".inventoryContainer").hide();
+	$('#player_btn_0_4')[0].play();
+    $(".rightMain").css("bottom","135px");
+    $(".tradeButtonContainer").hide();
+    if ($(".unboxing").css('display') !== 'block') {
+      $(".unboxing").show();
+      $(".jackpot").hide();
     }
   }
 });
@@ -4452,7 +4482,6 @@ function loadGameState() {
     inventoryClear();
     var saveGame = JSON.parse(localStorage.getItem("savegame"));
     //console.log(saveGame);
-
     money = saveGame["money"];
     inventory = saveGame["inventory"];
     inventoryCurrent = Object.keys(inventory).length;
@@ -4476,8 +4505,21 @@ function clearGameState() {
 }
 
 /*===============CANVAS===============*/
+function setHalfVolume() {
+    var myAudio = document.getElementById("player_btn_0_3");  
+    myAudio.volume = 0.5; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
+}
 
+var audio = document.getElementById('player_btn_0_0');
+var audio = document.getElementById('player_btn_0_1');
+var audio = document.getElementById('player_btn_0_2');
+var audio = document.getElementById('player_btn_0_3');
+var audio = document.getElementById('player_btn_0_4');
+var audio = document.getElementById('player_btn_0_5');
 
+audio.addEventListener('volume', function() {
+    console.log('changed.', arguments);
+}, true);
 /*==============================================================================
 Canvas
 ==============================================================================*/
