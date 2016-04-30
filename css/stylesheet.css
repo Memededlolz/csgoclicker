@@ -747,7 +747,7 @@ html, body {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	width: 575px;
+	width: 625px;
 	background: #090D10;
 	border-left: 1px #186144 solid;
 }
@@ -971,6 +971,14 @@ html, body {
 }
 
 .audioContainer {
+	display: none;
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.coinContainer {
 	display: none;
 	height: 100%;
 	width: 100%;

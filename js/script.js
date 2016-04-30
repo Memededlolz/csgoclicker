@@ -3655,11 +3655,13 @@ $("#caseTab").click(function() {
     $("#upgradeTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
     $("#audioTab").removeClass("active");
+    $("#coinTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").show();
 	$(".audioContainer").hide();
+    $(".coinContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
@@ -3677,10 +3679,12 @@ $("#inventoryTab").click(function() {
     $("#upgradeTab").removeClass("active");
     $("#caseTab").removeClass("active");
 	$("#audioTab").removeClass("active");
+    $("#coinTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").show();
     $(".caseContainer").hide();
+    $(".coinContainer").hide();
 	$(".audioContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
@@ -3699,10 +3703,12 @@ $("#upgradeTab").click(function() {
     $("#caseTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
 	$("#audioTab").removeClass("active");
+    $("#coinTab").removeClass("active");
     $(".upgradeContainer").show();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
     $(".caseContainer").hide();
+    $(".coinContainer").hide();
  	$(".audioContainer").hide();
 	$('#player_btn_0_4')[0].play();
     $(".rightMain").css("bottom","135px");
@@ -3723,11 +3729,13 @@ $("#jackpotTab").click(function() {
       $("#caseTab").removeClass("active");
       $("#inventoryTab").removeClass("active");
 	  $("#audioTab").removeClass("active");
+      $("#coinTab").removeClass("active");
       $(".upgradeContainer").hide();
       $(".jackpotRightContainer").show();
       $(".inventoryContainer").hide();
       $(".caseContainer").hide();
 	  $(".audioContainer").hide();
+      $(".coinContainer").hide();
 	  $('#player_btn_0_4')[0].play();
       $(".tradeButtonContainer").hide();
       $(".rightMain").css("bottom","0");
@@ -3746,9 +3754,35 @@ $("#audioTab").click(function() {
     $("#upgradeTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
     $("#caseTab").removeClass("active");
+    $("#coinTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".audioContainer").show();
+    $(".coinContainer").hide();
+    $(".caseContainer").hide();
+    $(".inventoryContainer").hide();
+	$('#player_btn_0_4')[0].play();
+    $(".rightMain").css("bottom","135px");
+    $(".tradeButtonContainer").hide();
+    if ($(".unboxing").css('display') !== 'block') {
+      $(".unboxing").show();
+      $(".jackpot").hide();
+    }
+  }
+});
+
+$("#coinTab").click(function() {
+  if ($(".coinContainer").css('display') == 'none') {
+    $(this).toggleClass("active");
+    $("#jackpotTab").removeClass("active");
+    $("#upgradeTab").removeClass("active");
+    $("#inventoryTab").removeClass("active");
+    $("#audioTab").removeClass("active");
+    $("#caseTab").removeClass("active");
+    $(".upgradeContainer").hide();
+    $(".jackpotRightContainer").hide();
+    $(".coinContainer").show();
+    $(".audioContainer").hide();
     $(".caseContainer").hide();
     $(".inventoryContainer").hide();
 	$('#player_btn_0_4')[0].play();
