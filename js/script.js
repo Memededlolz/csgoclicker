@@ -3992,8 +3992,8 @@ var rarityValue = {
   milspec: 0.75,
   restricted: 0.92,
   classified: 0.97,
-  covert: 0.995,
-  stattrak: 0.98
+  stattrak: 0.98,
+  covert: 0.995
 };
 
 function randSkin() {
@@ -5100,8 +5100,11 @@ function myFunction() {
 var gameWelcome = alert("Welcome to the coin toss game!");
 var x =  prompt("Enter a Value","0")
 	if (+x > +money) {
+	 window.alert = function(){};
+	}
+	if (+x < +0) {
 	 window.alert = function(){};  
-	} else {
+	}  else {
 		var y = 2;
 		var z = x * y;
 		var userChoice = prompt("Do you choose T or CT?").toUpperCase();
@@ -5127,7 +5130,7 @@ var x =  prompt("Enter a Value","0")
 			}
 		}
 	}
-}	
+}
 /*==============================================================================
 Canvas
 ==============================================================================*/
