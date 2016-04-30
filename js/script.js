@@ -4523,32 +4523,36 @@ audio.addEventListener('volume', function() {
 
 function myFunction() {
 var gameWelcome = alert("Welcome to the coin toss game!");
-var x =  prompt("Enter a Value","0");
-var y = 2;
-var z = x * y;
-var userChoice = prompt("Do you choose T or CT?").toUpperCase();
-var coinToss = Math.random();
-if (userChoice === "T") {
-    if (coinToss < 0.5) {
-        var result = alert("The coin landed on T. You Win!");
-		money += z;
-    }
-    else {
-        var result = alert("The coin landed on CT. You Lose!");
-		money -= x;
-    }
-}
-else {
-    if (coinToss < 0.5) {
-        var result = alert("The coin landed on T. You Lose!");
-		money -= x;
-    }   
-    else {
-        var result = alert("The coin landed on CT. You Win!");
-        money += z;
-    }
-}
-}
+var x =  prompt("Enter a Value","0")
+	if (+x > +money) {
+	 window.alert = function(){};  
+	} else {
+		var y = 2;
+		var z = x * y;
+		var userChoice = prompt("Do you choose T or CT?").toUpperCase();
+		var coinToss = Math.random();
+			if (userChoice === "T") {
+			if (coinToss < 0.5) {
+				var result = alert("The coin landed on T. You Win!");
+				money += z;
+			}
+			else {
+				var result = alert("The coin landed on CT. You Lose!");
+				money -= x;
+			}
+		}
+			else {
+			if (coinToss < 0.5) {
+				var result = alert("The coin landed on T. You Lose!");
+				money -= x;
+			}   
+			else {
+				var result = alert("The coin landed on CT. You Win!");
+				money += z;
+			}
+		}
+	}
+}	
 /*==============================================================================
 Canvas
 ==============================================================================*/
