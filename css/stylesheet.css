@@ -403,14 +403,13 @@ html, body {
 
 .jackpotRightToBet {
 	position: absolute;
-	display: flex;
-	justify-content: center;
 	bottom: 80px;
-	width: 100%;
+	width: 600px;
 	left: 0;
 	right: 0;
-	height: 85px;
+	height: 89.75px;
 	background: #101619;
+	overflow-x: scroll;
 }
 
 .jackpotRightPlayer {
@@ -579,20 +578,22 @@ html, body {
 .depositorSkinContainer {
 	height: 80px;
 	float: right;
+	overflow-x: scroll;
+	overflow-y: scroll;
 }
 
 .depositorSkin {
 	position: relative;
-	width: 70px;
-	height: 70px;
+	width: 55px;
+	height: 55px;
 	border: 1px #1B2329 solid;
 	margin: 4px;
-	float: right;
+	float: left;
 }
 
 .depositorSkin img {
-	height: 70px;
-	width: 70px;
+	height: 55px;
+	width: 55px;
 }
 
 .modalWindow {
@@ -747,7 +748,7 @@ html, body {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	width: 625px;
+	width: 580px;
 	background: #090D10;
 	border-left: 1px #186144 solid;
 }
