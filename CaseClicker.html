@@ -10,25 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/stylesheet.css" media="screen" title="no title" charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<!--<script>
-function play_btn(x) {
-    var btnId = x.id;
-    var noisePlayer = document.getElementById("player_" + btnId);
-    if (noisePlayer.paused) {
-        noisePlayer.play();
-        //some style change
-        
-    } else {
-        noisePlayer.pause();
-        //some style change
-        
-    }
-}
-var volumeRange = $("#volume");
-volumeRange.change(function () {
-$("audio").attr("volume", volumeRange.val());
-})
-</script> -->
+	<script>
+</script>
   </head>
   <body>
     <div class="container noselect">
@@ -37,13 +20,13 @@ $("audio").attr("volume", volumeRange.val());
         <ul>
           <li><a href="https://KingofKFCJamal.github.io/CaseClicker" class="headerLogo"></a></li>
           <div class="settings"></div>
-	<!-- <input type="range" name="Volume Changer" id="volume"> -->
           <div class="about">About</div>
         </ul>
       </div>
       <div class="settingsList hidden">
         <li><h1>SETTINGS</h1></li>
-        <li>Disable Popup: <input type="checkbox" id="popupCheckbox"></li>
+        <li>Disable Popup: <input type="checkbox" id="popupCheckbox"><button onclick="myFunction()">Coin Flip</button></li>
+
         <div class="clearGameState">Clear Game Save</div>
       </div>
       <div class="aboutContainer">
