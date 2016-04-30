@@ -3993,7 +3993,7 @@ var rarityValue = {
   restricted: 0.92,
   classified: 0.97,
   covert: 0.995,
-  stattrak: 0.996
+  stattrak: 0.98
 };
 
 function randSkin() {
