@@ -5207,9 +5207,9 @@ var jackpotAiDifficulty2 = {
   4: ["milspec", "restricted", "classified", "covert"],
   5: ["milspec", "restricted", "classified", "covert", "knife"],
   6: ["restricted", "classified", "covert", "knife"],
-  7: ["classified", "covert", "knife"],
-  8: ["covert", "knife"],
-  9: ["knife"]
+  7: ["classified", "stattrak", "covert", "knife"],
+  8: ["stattrak", "covert", "knife"],
+  9: ["stattrak", "knife"]
 };
 
 
