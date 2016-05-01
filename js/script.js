@@ -5102,7 +5102,7 @@ var x =  prompt("Enter a Value","0")
 	if (+x > +money) {
 	 window.alert = function(){};
 	}
-	if (+x < +0) {
+	else if (+x < +0) {
 	 window.alert = function(){};  
 	}  else {
 		var y = 2;
