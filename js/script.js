@@ -7609,7 +7609,7 @@ function randSkin() {
      var randNum = Math.random().toFixed(3); //rounded to 3 places to make it slightly easier to get certain rarities
      var rarity = "";
      var identifier;
-
+	 
      if (randNum <= rarityValue.milspec) {
        rarity = "milspec";
      } else if (randNum >= rarityValue.milspec && randNum <= rarityValue.restricted) {
@@ -7762,9 +7762,9 @@ $('#player_btn_0_4')[0].play();
 $("#case").click(function() {
   if (inventoryCurrent < inventoryMax) {
     var price = (operationCases[currentCase]["price"] - caseDiscount) + (keyPrice - keyDiscount);
-	$('#player_btn_0_5')[0].play();
     if (price >= 0 && money >= price) {
       money -= price;
+	$('#player_btn_0_5')[0].play();
       randSkin();
     } else if (price < 0 && money >= price) {
       randSkin();
@@ -7969,7 +7969,7 @@ function caseInfo() {
   $('#caseDisplayImage').attr("src", operationCases[currentCase]["img"] + "/240fx182f");
   $('#caseName').html(operationCases[currentCase]["name"]);
   $('#casePrice').html("Case Price: $" + (operationCases[currentCase]["price"] - caseDiscount).toFixed(2) + "  |");
-  $('#keyPrice').html("Key Price: $" + (keyPrice - keyDiscount).toFixed(2));
+  $('#keyPrice').html("Key Price: $" + (keyPrice - keyDiscount).toFixed(2));  
 }
 
 function update() {
