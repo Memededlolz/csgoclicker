@@ -40,7 +40,8 @@ var operationCases = {
   case8: {name: "Operation Phoenix Weapon Case", price: 0.12, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFUuh6qZJmlD7tiyl4OIlaGhYuLTzjhVupJ12urH89ii3lHlqEdoMDr2I5jVLFFSv_J2Rg" },
   case9: {name: "Huntsman Weapon Case", price: 1.04, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFQu0PaQIm9DtY6wzYaIxKWtN7iJwW8G6Z0h2LqWoY6s2Qy2-0Q_Nzv7IJjVLFGZqUbjlQ" },
   case10: {name: "Operation Breakout Weapon Case", price: 0.07, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFMu1aPMI24auITjxteJwPXxY72AkGgIvZAniLjHpon2jlbl-kpvNjz3JJjVLFG9rl1YLQ" },
-  case11: {name: "eSports 2014 Summer Case", price: 0.46, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C" }
+  case11: {name: "eSports 2014 Summer Case", price: 0.46, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C" },
+  case12: {name: "Operation Vanguard Weapon Case", price: 0.28, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFIuh6rJImVGvtjllYaNka6la7rUxWkE65BzibvD9N7z0Q22-0Fka2GlJ5jVLFHqavWW2g" }
 }
 
 var knives = {
@@ -7570,6 +7571,639 @@ var cases = {
       }
 	}
   },
+//Vanguard
+ case12: {
+    milspec: {
+      weap1: {
+        name: "UMP-45 | Delusion FT",
+        price: 0.19,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWZU7Mxkh9bN9J7yjRq2r0Q5NWygJdOXdwI-Z1mFrwO7wunrhcDouZScmHZi63F04X7Vmh2xn1gSOcvFfm8r"
+      },
+      weap2: {
+        name: "UMP-45 | Delusion MW",
+        price: 0.21,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWdY781lteXA54vwxgfnqhZrNmCmLNTDcAJrNFHXrFXowrrs0MO9vZ6czHNksiJz4nrbyUSpwUYbODub6t8"
+      },
+      weap3: {
+        name: "UMP-45 | Delusion FN",
+        price: 1.87,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWdY781lteXA54vwxgfnqhZrNmCmLNTDcAJrNFHXrFXowrrs0MO9vZ6czHNksiJz4nrbyUSpwUYbODub6t8"
+      },
+      weap4: {
+        name: "MP9 | Dart BS",
+        price: 0.70,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqP_xMq3IqWdQ-sJ0xOqUrdSl3g22-BJkYj33LNWWdgI4YwzY_1a6wbrrjMC0tMybn3JqvSU8pSGKru1DHGo"
+      },
+      weap5: {
+        name: "MP9 | Dart WW",
+        price: 0.32,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPrxN7LEm1Rd6dd2j6eUpon0jgTj-0tpY2nwI4CXewE-Y1uG_1Toxb3ph8LqvM-fzyBl7HMn-z-DyNv_un7P"
+      },
+      weap6: {
+        name: "MP9 | Dart FT",
+        price: 0.23,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPrxN7LEm1Rd6dd2j6eUpon0jgTj-0tpY2nwI4CXewE-Y1uG_1Toxb3ph8LqvM-fzyBl7HMn-z-DyNv_un7P"
+      },
+      weap7: {
+        name: "MP9 | Dart MW",
+        price: 0.29,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPv9NLPFqWdQ-sJ0xL-YrY333Qzn_kBrNmqmcILHdQA4YAzTrALoxuu90JC-6p2anSQy6Ck8pSGKo7I07Pg"
+      },
+      weap8: {
+        name: "MP9 | Dart FN",
+        price: 0.39,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPv9NLPFqWdQ-sJ0xL-YrY333Qzn_kBrNmqmcILHdQA4YAzTrALoxuu90JC-6p2anSQy6Ck8pSGKo7I07Pg"
+      },
+      weap9: {
+        name: "MAG-7 | Firestarter BS",
+        price: 0.37,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXunm5Q_txOhujT8om73lLt-kJqNzynd9PEIVc-N13Tq1K-xum8jMC5tZSfziBkuyAht3bezQv3309JALRhkg"
+      },
+      weap10: {
+        name: "MAG-7 | Firestarter WW",
+        price: 0.52,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXum25V4dB8teXA54vwxgS1_xY4ammlJdSTIQQ_MArV_we4xL-70ZPovpucmiE3vnMl5yvdyxOpwUYbnBaN0K0"
+      },
+      weap11: {
+        name: "MAG-7 | Firestarter FT",
+        price: 0.17,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXum25V4dB8teXA54vwxgS1_xY4ammlJdSTIQQ_MArV_we4xL-70ZPovpucmiE3vnMl5yvdyxOpwUYbnBaN0K0"
+      },
+      weap12: {
+        name: "MAG-7 | Firestarter MW",
+        price: 0.23,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXummJW4NFOhujT8om73gDkqhVuNj2hIYTEdVA_ZljW-FHrwOnq0cLt7ZifzCE1vSYh5n3YzQv330-fq6NOtQ"
+      },
+      weap13: {
+        name: "MAG-7 | Firestarter FN",
+        price: 1.05,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXummJW4NFOhujT8om73gDkqhVuNj2hIYTEdVA_ZljW-FHrwOnq0cLt7ZifzCE1vSYh5n3YzQv330-fq6NOtQ"
+      },
+      weap14: {
+        name: "G3SG1 | Murky FT",
+        price: 0.27,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LPr7Vn35c18lwmO7Eu4730Ayy8xU-Mm2iJdLDdwdvZQ7Z_FK6xbu70cW8uszNySQy6XYn5y3D30vgUzwHFlY"
+      },
+      weap15: {
+        name: "G3SG1 | Murky MW",
+        price: 0.24,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LP7LWnn9u5MRjjeyP94-hjQyw-xZrYz3xLYOXdwE4NV2D81e7wrq-gpfqvpybmnJh6Cgj5WGdwUKiw-CmAw"
+      },
+      weap16: {
+        name: "G3SG1 | Murky FN",
+        price: 0.29,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LP7LWnn9u5MRjjeyP94-hjQyw-xZrYz3xLYOXdwE4NV2D81e7wrq-gpfqvpybmnJh6Cgj5WGdwUKiw-CmAw"
+      },
+      weap17: {
+        name: "Five-SeveN | Urban Hazard FT",
+        price: 0.52,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhVGwogYxDDWiZtHAbFA3aV-D_VDoybju0MTotc6fnSFruyQq7HqLyhG_hxpFZ-1mjKObS1qAR_se4c1UVuE"
+      },
+      weap18: {
+        name: "Five-SeveN | Urban Hazard MW",
+        price: 0.58,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhF2zowcDPzixc9OLdgM4aF7WrlO9l7-5hJa_uM7MyCBruyMit3iMmBW1iBwdOOVngvWcT0LeWfIFPrcKKw"
+      },
+      weap19: {
+        name: "Five-SeveN | Urban Hazard FN",
+        price: 0.71,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhF2zowcDPzixc9OLdgM4aF7WrlO9l7-5hJa_uM7MyCBruyMit3iMmBW1iBwdOOVngvWcT0LeWfIFPrcKKw"
+      }
+    },
+    restricted: {
+      weap1: {
+        name: "Sawed-Off | Highwayman BS",
+        price: 0.42,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teHE9Jrst1i1uRQ5fWH6LIWVdFU7Nw3V81C-k7jm18C078nMz3VhuyBwtnaOzReziUpKO7FxxavJdzfWlHs"
+      },
+      weap2: {
+        name: "Sawed-Off | Highwayman WW",
+        price: 0.37,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teTE8YXghWu4qgE7Nnf3ItDDewJoaQ3RrlC5wuq60MLttZiamHI17yQm4nndy0Th1UlOZuJsm7XAHhtx3kjc"
+      },
+      weap3: {
+        name: "Sawed-Off | Highwayman FT",
+        price: 0.40,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teTE8YXghWu4qgE7Nnf3ItDDewJoaQ3RrlC5wuq60MLttZiamHI17yQm4nndy0Th1UlOZuJsm7XAHhtx3kjc"
+      },
+      weap4: {
+        name: "Sawed-Off | Highwayman MW",
+        price: 0.53,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teXI8oTht1i1uRQ5fW2iLNWWIwQ5Ml_Y-gK8kOu61pXpuM_Pz3plvikqsSyImxa-1R0daeZxxavJyWv5Wgg"
+      },
+      weap5: {
+        name: "Sawed-Off | Highwayman FN",
+        price: 0.97,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teXI8oTht1i1uRQ5fW2iLNWWIwQ5Ml_Y-gK8kOu61pXpuM_Pz3plvikqsSyImxa-1R0daeZxxavJyWv5Wgg"
+      },
+      weap6: {
+        name: "M4A4 | Griffin BS",
+        price: 1.49,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLO77QgHJu5MRjjeyPpYin0Qbi-RE5Zmzwd4TAIQI3YFnQqQLrxOrth8S8tZzPm3ow6Clw42GdwUJnuIpzVA"
+      },
+      weap7: {
+        name: "M4A4 | Griffin WW",
+        price: 2.71,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLPr7Vn35c18lwmO7Eu96kiVCx_kBlY26lJ9eUJlc_MFHW-Ae9l-vogpO5vZTPyHNnuXQitinD30vgHP9iLbw"
+      },
+      weap8: {
+        name: "M4A4 | Griffin FT",
+        price: 1.54,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLPr7Vn35c18lwmO7Eu96kiVCx_kBlY26lJ9eUJlc_MFHW-Ae9l-vogpO5vZTPyHNnuXQitinD30vgHP9iLbw"
+      },
+      weap9: {
+        name: "M4A4 | Griffin MW",
+        price: 1.99,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLP7LWnn9u5MRjjeyPp9mgilDs-BU4YG3wcdedJw5qaVyB-wW7kufrjJO16J2by3Qw63ZzsGGdwUIIJNFlNw"
+      },
+      weap10: {
+        name: "M4A4 | Griffin FN",
+        price: 4.14,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLP7LWnn9u5MRjjeyPp9mgilDs-BU4YG3wcdedJw5qaVyB-wW7kufrjJO16J2by3Qw63ZzsGGdwUIIJNFlNw"
+      },
+      weap16: {
+        name: "M4A1-S | Basilisk BS",
+        price: 1.75,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbJ8I3jkWu4qgE7NnfzI46UJgNvZFvY_gW6wezthpO66Z_IwXdg7HZ3sCnblxbhhExLbuI8m7XAHvkxRHOj"
+      },
+      weap17: {
+        name: "M4A1-S | Basilisk WW",
+        price: 2.37,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbM8Ij8nVmLpxIuNDztIYbGJ1I8YA7Rq1C6le7m15S47ZWdzSc1vyEm5n-Lnhe0iEoda-xtgOveFwv4dX1sfw"
+      },
+      weap18: {
+        name: "M4A1-S | Basilisk FT",
+        price: 1.90,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbM8Ij8nVmLpxIuNDztIYbGJ1I8YA7Rq1C6le7m15S47ZWdzSc1vyEm5n-Lnhe0iEoda-xtgOveFwv4dX1sfw"
+      },
+      weap19: {
+        name: "M4A1-S | Basilisk MW",
+        price: 2.23,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbN_Iv9nGu4qgE7NnfyLIWSclI4ZF3X_1G-wunp0Je_u87On3Qxuidx4iqJmxPkiEwfPbNtm7XAHjQFcBpg"
+      },
+      weap20: {
+        name: "M4A1-S | Basilisk FN",
+        price: 3.83,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbN_Iv9nGu4qgE7NnfyLIWSclI4ZF3X_1G-wunp0Je_u87On3Qxuidx4iqJmxPkiEwfPbNtm7XAHjQFcBpg"
+      },
+      weap13: {
+        name: "Glock-18 | Grinder FT",
+        price: 0.71,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLbUkmJE5fp9i_vG8MKj3wLgr0Q-Y2inLICTdwY5MwnT8wS9yOjo1Ja_usmczHJruCAks3fagVXp1pDkAvIB"
+      },
+      weap14: {
+        name: "Glock-18 | Grinder MW",
+        price: 0.69,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLfYkWNF18lwmO7Eu4ihjFe2rUM4YW73I4_HewNvZQmE_lLtwui5hsS_6p6dmnpk6HJ27XvD30vg-FaCZJg"
+      },
+      weap15: {
+        name: "Glock-18 | Grinder FN",
+        price: 0.86,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLfYkWNF18lwmO7Eu4ihjFe2rUM4YW73I4_HewNvZQmE_lLtwui5hsS_6p6dmnpk6HJ27XvD30vg-FaCZJg"
+      }
+    },
+    classified: {
+      weap1: {
+        name: "XM1014 | Tranquility BS",
+        price: 2.47,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWNU6dNoteXA54vwxge2_BFuammlIdKQIwU5NQ7S-lm9we-8hcfu7p-cmnE36XEr5X-LlxKpwUYbIz3Bsbc"
+      },
+      weap2: {
+        name: "XM1014 | Tranquility WW",
+        price: 3.10,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWZU7Mxkh9bN9J7yjRq1qEJoZ2_xJoTGdwU-NVqF-FK5ku7p1sK9uJnLmHFi6Cl34HnczEC3n1gSOQa4pUVU"
+      },
+      weap3: {
+        name: "XM1014 | Tranquility FT",
+        price: 2.31,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWZU7Mxkh9bN9J7yjRq1qEJoZ2_xJoTGdwU-NVqF-FK5ku7p1sK9uJnLmHFi6Cl34HnczEC3n1gSOQa4pUVU"
+      },
+      weap4: {
+        name: "XM1014 | Tranquility MW",
+        price: 2.80,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWdY781lteXA54vwxgTi-xZqYG77coPHd1dsZw6D_1Lvw7q9gZO96p6dz3oxsiAh5inenxGpwUYbnX3d0Ig"
+      },
+      weap5: {
+        name: "XM1014 | Tranquility FN",
+        price: 6.16,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWdY781lteXA54vwxgTi-xZqYG77coPHd1dsZw6D_1Lvw7q9gZO96p6dz3oxsiAh5inenxGpwUYbnX3d0Ig"
+      },
+      weap6: {
+        name: "SCAR-20 | Cardiac BS",
+        price: 2.69,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOguzA45XKhFWmrBZyajr0cYGTe1NraVCG_AK_lLrthcW6tMmfwCdjvyAn4nbemRPkg0tLa_sv26LiLhxSXQ"
+      },
+      weap7: {
+        name: "SCAR-20 | Cardiac WW",
+        price: 2.35,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOh-zF_Jn4t1i1uRQ5fTqgd9eWcAA8Y1rY-FK-wbvv0cXvuJrKwHFnvCZx43yPmUDj00lMPLZxxavJjrohnxA"
+      },
+      weap8: {
+        name: "SCAR-20 | Cardiac FT",
+        price: 2.25,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOh-zF_Jn4t1i1uRQ5fTqgd9eWcAA8Y1rY-FK-wbvv0cXvuJrKwHFnvCZx43yPmUDj00lMPLZxxavJjrohnxA"
+      },
+      weap9: {
+        name: "SCAR-20 | Cardiac MW",
+        price: 2.87,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOhuDG_ZjKhFWmrBZyam-nLdeXdFVtMF7R_VO-xuzvjce0v5udzXBn7iYl4y2OzRfk1BseZ_sv26K4FaBPlw"
+      },
+      weap10: {
+        name: "SCAR-20 | Cardiac FN",
+        price: 7.99,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOhuDG_ZjKhFWmrBZyam-nLdeXdFVtMF7R_VO-xuzvjce0v5udzXBn7iYl4y2OzRfk1BseZ_sv26K4FaBPlw"
+      },
+      weap11: {
+        name: "P250 | Cartel BS",
+        price: 2.50,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j8NrrHj1Rd6dd2j6eSpdXx3lexrhZoZGr7IoecdgVvZg3V-VG-w-bnh5S7u5ufn3Ri7HZx-z-DyP2c95ga"
+      },
+      weap12: {
+        name: "P250 | Cartel WW",
+        price: 2.69,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j5Nr_Yg2Zu5MRjjeyP8N-k3way-UM5NmCiLIeRIwQ4ZgvQq1O8k--7hp_vuZSdyXdrvnZx7WGdwUIdDe8uxA"
+      },
+      weap13: {
+        name: "P250 | Cartel FT",
+        price: 2.39,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j5Nr_Yg2Zu5MRjjeyP8N-k3way-UM5NmCiLIeRIwQ4ZgvQq1O8k--7hp_vuZSdyXdrvnZx7WGdwUIdDe8uxA"
+      },
+      weap14: {
+        name: "P250 | Cartel MW",
+        price: 2.78,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j4OrzZglRd6dd2j6fFo9_wiQXl_EpvZzigLNCcIwI-MA6F-lO5l7_r1Je4v5WdmyBivScl-z-DyIG61H2I"
+      },
+      weap15: {
+        name: "P250 | Cartel FN",
+        price: 6.35,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j4OrzZglRd6dd2j6fFo9_wiQXl_EpvZzigLNCcIwI-MA6F-lO5l7_r1Je4v5WdmyBivScl-z-DyIG61H2I"
+      }
+    },
+    covert: {
+      weap1: {
+        name: "P2000 | Fire Elemental BS",
+        price: 7.95,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbJ8I3jkWu4qgE7Nnf2dtLGcQFrMFvV_lS2xu7ohpC06pzNynFn7iAmtyuIl0e_gRlIa-M6m7XAHkB_0hoA"
+      },
+      weap2: {
+        name: "P2000 | Fire Elemental WW",
+        price: 8.34,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbM8Ij8nVmLpxIuNDztLYGcJFVoZF3X-gO2x7y808K8vZ2cwHYxsigh4C7emkfm1BxOb7M80eveFwtKPv5lvA"
+      },
+      weap3: {
+        name: "P2000 | Fire Elemental FT",
+        price: 7.88,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbM8Ij8nVmLpxIuNDztLYGcJFVoZF3X-gO2x7y808K8vZ2cwHYxsigh4C7emkfm1BxOb7M80eveFwtKPv5lvA"
+      },
+      weap4: {
+        name: "P2000 | Fire Elemental MW",
+        price: 9.89,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbN_Iv9nGu4qgE7NnfycYOSJgJqaA7RqVS_lOjuhsW9tZ_KynVk63En4CmMzRHlgUkeb7c8m7XAHtIREKva"
+      },
+      weap5: {
+        name: "P2000 | Fire Elemental FN",
+        price: 17.25,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbN_Iv9nGu4qgE7NnfycYOSJgJqaA7RqVS_lOjuhsW9tZ_KynVk63En4CmMzRHlgUkeb7c8m7XAHtIREKva"
+      },
+      weap6: {
+        name: "AK-47 | Wasteland Rebel BS",
+        price: 15.76,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLO77QgHJu5MRjjeyPp4ijjAW1_EBqMG_zcdOTcQJrNFvXqVi_xejqhp697ZSczycyuHEn42GdwUJmbl0i6g"
+      },
+      weap7: {
+        name: "AK-47 | Wasteland Rebel WW",
+        price: 21.00,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLPr7Vn35c18lwmO7Eu9mhiwLnr0RvMWnxLdedIwY4YFCC_lnrk-28h5K675rIyntj6ygl4HnD30vgkRiUzqw"
+      },
+      weap8: {
+        name: "AK-47 | Wasteland Rebel FT",
+        price: 19.00,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLPr7Vn35c18lwmO7Eu9mhiwLnr0RvMWnxLdedIwY4YFCC_lnrk-28h5K675rIyntj6ygl4HnD30vgkRiUzqw"
+      },
+      weap9: {
+        name: "AK-47 | Wasteland Rebel MW",
+        price: 27.40,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLP7LWnn9u5MRjjeyP89z2i1KxrhJkMm3wJtedcFVoZQ6C_Qe-xe_u1JG-uMmbm3ZgviUrtGGdwULRVQuqfg"
+      },
+      weap10: {
+        name: "AK-47 | Wasteland Rebel FN",
+        price: 120.00,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLP7LWnn9u5MRjjeyP89z2i1KxrhJkMm3wJtedcFVoZQ6C_Qe-xe_u1JG-uMmbm3ZgviUrtGGdwULRVQuqfg"
+      }
+	},
+    stattrak: {
+      weap1: {
+        name: "StatTrak™ UMP-45 | Delusion FT",
+        price: 0.58,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWZU7Mxkh9bN9J7yjRq2r0Q5NWygJdOXdwI-Z1mFrwO7wunrhcDouZScmHZi63F04X7Vmh2xn1gSOcvFfm8r"
+      },
+      weap2: {
+        name: "StatTrak™ UMP-45 | Delusion MW",
+        price: 0.98,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWdY781lteXA54vwxgfnqhZrNmCmLNTDcAJrNFHXrFXowrrs0MO9vZ6czHNksiJz4nrbyUSpwUYbODub6t8"
+      },
+      weap3: {
+        name: "StatTrak™ UMP-45 | Delusion FN",
+        price: 9.20,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1JfwOP3ZDBSuImJkM2dnuT9PLXCqWdY781lteXA54vwxgfnqhZrNmCmLNTDcAJrNFHXrFXowrrs0MO9vZ6czHNksiJz4nrbyUSpwUYbODub6t8"
+      },
+      weap4: {
+        name: "StatTrak™ MP9 | Dart BS",
+        price: 1.80,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqP_xMq3IqWdQ-sJ0xOqUrdSl3g22-BJkYj33LNWWdgI4YwzY_1a6wbrrjMC0tMybn3JqvSU8pSGKru1DHGo"
+      },
+      weap5: {
+        name: "StatTrak™ MP9 | Dart WW",
+        price: 0.65,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPrxN7LEm1Rd6dd2j6eUpon0jgTj-0tpY2nwI4CXewE-Y1uG_1Toxb3ph8LqvM-fzyBl7HMn-z-DyNv_un7P"
+      },
+      weap6: {
+        name: "StatTrak™ MP9 | Dart FT",
+        price: 0.57,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPrxN7LEm1Rd6dd2j6eUpon0jgTj-0tpY2nwI4CXewE-Y1uG_1Toxb3ph8LqvM-fzyBl7HMn-z-DyNv_un7P"
+      },
+      weap7: {
+        name: "StatTrak™ MP9 | Dart MW",
+        price: 0.80,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPv9NLPFqWdQ-sJ0xL-YrY333Qzn_kBrNmqmcILHdQA4YAzTrALoxuu90JC-6p2anSQy6Ck8pSGKo7I07Pg"
+      },
+      weap8: {
+        name: "StatTrak™ MP9 | Dart FN",
+        price: 1.34,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJB5Nmgho-FqPv9NLPFqWdQ-sJ0xL-YrY333Qzn_kBrNmqmcILHdQA4YAzTrALoxuu90JC-6p2anSQy6Ck8pSGKo7I07Pg"
+      },
+      weap9: {
+        name: "StatTrak™ MAG-7 | Firestarter BS",
+        price: 0.62,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXunm5Q_txOhujT8om73lLt-kJqNzynd9PEIVc-N13Tq1K-xum8jMC5tZSfziBkuyAht3bezQv3309JALRhkg"
+      },
+      weap10: {
+        name: "StatTrak™ MAG-7 | Firestarter WW",
+        price: 0.69,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXum25V4dB8teXA54vwxgS1_xY4ammlJdSTIQQ_MArV_we4xL-70ZPovpucmiE3vnMl5yvdyxOpwUYbnBaN0K0"
+      },
+      weap11: {
+        name: "StatTrak™ MAG-7 | Firestarter FT",
+        price: 0.55,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXum25V4dB8teXA54vwxgS1_xY4ammlJdSTIQQ_MArV_we4xL-70ZPovpucmiE3vnMl5yvdyxOpwUYbnBaN0K0"
+      },
+      weap12: {
+        name: "StatTrak™ MAG-7 | Firestarter MW",
+        price: 0.76,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXummJW4NFOhujT8om73gDkqhVuNj2hIYTEdVA_ZljW-FHrwOnq0cLt7ZifzCE1vSYh5n3YzQv330-fq6NOtQ"
+      },
+      weap13: {
+        name: "StatTrak™ MAG-7 | Firestarter FN",
+        price: 4.29,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhzw8zFcDoV09q_hoWJnuPgNrXummJW4NFOhujT8om73gDkqhVuNj2hIYTEdVA_ZljW-FHrwOnq0cLt7ZifzCE1vSYh5n3YzQv330-fq6NOtQ"
+      },
+      weap14: {
+        name: "StatTrak™ G3SG1 | Murky FT",
+        price: 0.80,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LPr7Vn35c18lwmO7Eu4730Ayy8xU-Mm2iJdLDdwdvZQ7Z_FK6xbu70cW8uszNySQy6XYn5y3D30vgUzwHFlY"
+      },
+      weap15: {
+        name: "StatTrak™ G3SG1 | Murky MW",
+        price: 0.82,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LP7LWnn9u5MRjjeyP94-hjQyw-xZrYz3xLYOXdwE4NV2D81e7wrq-gpfqvpybmnJh6Cgj5WGdwUKiw-CmAw"
+      },
+      weap16: {
+        name: "StatTrak™ G3SG1 | Murky FN",
+        price: 1.27,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZf0v73dm5R642JmZWZnO7LP7LWnn9u5MRjjeyP94-hjQyw-xZrYz3xLYOXdwE4NV2D81e7wrq-gpfqvpybmnJh6Cgj5WGdwUKiw-CmAw"
+      },
+      weap17: {
+        name: "StatTrak™ Five-SeveN | Urban Hazard FT",
+        price: 2.10,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhVGwogYxDDWiZtHAbFA3aV-D_VDoybju0MTotc6fnSFruyQq7HqLyhG_hxpFZ-1mjKObS1qAR_se4c1UVuE"
+      },
+      weap18: {
+        name: "StatTrak™ Five-SeveN | Urban Hazard MW",
+        price: 2.10,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhF2zowcDPzixc9OLdgM4aF7WrlO9l7-5hJa_uM7MyCBruyMit3iMmBW1iBwdOOVngvWcT0LeWfIFPrcKKw"
+      },
+      weap19: {
+        name: "StatTrak™ Five-SeveN | Urban Hazard FN",
+        price: 2.87,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTEhGlQ5vp5i_PA54jKhF2zowcDPzixc9OLdgM4aF7WrlO9l7-5hJa_uM7MyCBruyMit3iMmBW1iBwdOOVngvWcT0LeWfIFPrcKKw"
+      },
+      weap20: {
+        name: "StatTrak™ Sawed-Off | Highwayman BS",
+        price: 1.01,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teHE9Jrst1i1uRQ5fWH6LIWVdFU7Nw3V81C-k7jm18C078nMz3VhuyBwtnaOzReziUpKO7FxxavJdzfWlHs"
+      },
+      weap21: {
+        name: "StatTrak™ Sawed-Off | Highwayman WW",
+        price: 0.88,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teTE8YXghWu4qgE7Nnf3ItDDewJoaQ3RrlC5wuq60MLttZiamHI17yQm4nndy0Th1UlOZuJsm7XAHhtx3kjc"
+      },
+      weap22: {
+        name: "StatTrak™ Sawed-Off | Highwayman FT",
+        price: 1.04,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teTE8YXghWu4qgE7Nnf3ItDDewJoaQ3RrlC5wuq60MLttZiamHI17yQm4nndy0Th1UlOZuJsm7XAHhtx3kjc"
+      },
+      weap23: {
+        name: "StatTrak™ Sawed-Off | Highwayman MW",
+        price: 1.72,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teXI8oTht1i1uRQ5fW2iLNWWIwQ5Ml_Y-gK8kOu61pXpuM_Pz3plvikqsSyImxa-1R0daeZxxavJyWv5Wgg"
+      },
+      weap24: {
+        name: "StatTrak™ Sawed-Off | Highwayman FN",
+        price: 4.57,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbuyLgNv1fX3cCx9_92hkYSEkfHLMbfQlWBW58l1teXI8oTht1i1uRQ5fW2iLNWWIwQ5Ml_Y-gK8kOu61pXpuM_Pz3plvikqsSyImxa-1R0daeZxxavJyWv5Wgg"
+      },
+      weap25: {
+        name: "StatTrak™ M4A4 | Griffin BS",
+        price: 5.52,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLO77QgHJu5MRjjeyPpYin0Qbi-RE5Zmzwd4TAIQI3YFnQqQLrxOrth8S8tZzPm3ow6Clw42GdwUJnuIpzVA"
+      },
+      weap26: {
+        name: "StatTrak™ M4A4 | Griffin WW",
+        price: 8.51,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLPr7Vn35c18lwmO7Eu96kiVCx_kBlY26lJ9eUJlc_MFHW-Ae9l-vogpO5vZTPyHNnuXQitinD30vgHP9iLbw"
+      },
+      weap27: {
+        name: "StatTrak™ M4A4 | Griffin FT",
+        price: 5.72,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLPr7Vn35c18lwmO7Eu96kiVCx_kBlY26lJ9eUJlc_MFHW-Ae9l-vogpO5vZTPyHNnuXQitinD30vgHP9iLbw"
+      },
+      weap28: {
+        name: "StatTrak™ M4A4 | Griffin MW",
+        price: 8.97,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLP7LWnn9u5MRjjeyPp9mgilDs-BU4YG3wcdedJw5qaVyB-wW7kufrjJO16J2by3Qw63ZzsGGdwUIIJNFlNw"
+      },
+      weap29: {
+        name: "StatTrak™ M4A4 | Griffin FN",
+        price: 19.67,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09uknYaNnvnLP7LWnn9u5MRjjeyPp9mgilDs-BU4YG3wcdedJw5qaVyB-wW7kufrjJO16J2by3Qw63ZzsGGdwUIIJNFlNw"
+      },
+      weap30: {
+        name: "StatTrak™ M4A1-S | Basilisk BS",
+        price: 8.21,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbJ8I3jkWu4qgE7NnfzI46UJgNvZFvY_gW6wezthpO66Z_IwXdg7HZ3sCnblxbhhExLbuI8m7XAHvkxRHOj"
+      },
+      weap31: {
+        name: "StatTrak™ M4A1-S | Basilisk WW",
+        price: 11.81,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbM8Ij8nVmLpxIuNDztIYbGJ1I8YA7Rq1C6le7m15S47ZWdzSc1vyEm5n-Lnhe0iEoda-xtgOveFwv4dX1sfw"
+      },
+      weap32: {
+        name: "StatTrak™ M4A1-S | Basilisk FT",
+        price: 8.05,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbM8Ij8nVmLpxIuNDztIYbGJ1I8YA7Rq1C6le7m15S47ZWdzSc1vyEm5n-Lnhe0iEoda-xtgOveFwv4dX1sfw"
+      },
+      weap33: {
+        name: "StatTrak™ M4A1-S | Basilisk MW",
+        price: 9.77,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbN_Iv9nGu4qgE7NnfyLIWSclI4ZF3X_1G-wunp0Je_u87On3Qxuidx4iqJmxPkiEwfPbNtm7XAHjQFcBpg"
+      },
+      weap34: {
+        name: "StatTrak™ M4A1-S | Basilisk FN",
+        price: 15.23,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3hb-Gw_alIITTl3hY5MxigdbN_Iv9nGu4qgE7NnfyLIWSclI4ZF3X_1G-wunp0Je_u87On3Qxuidx4iqJmxPkiEwfPbNtm7XAHjQFcBpg"
+      },
+      weap35: {
+        name: "StatTrak™ Glock-18 | Grinder FT",
+        price: 3.41,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLbUkmJE5fp9i_vG8MKj3wLgr0Q-Y2inLICTdwY5MwnT8wS9yOjo1Ja_usmczHJruCAks3fagVXp1pDkAvIB"
+      },
+      weap36: {
+        name: "StatTrak™ Glock-18 | Grinder MW",
+        price: 3.41,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLfYkWNF18lwmO7Eu4ihjFe2rUM4YW73I4_HewNvZQmE_lLtwui5hsS_6p6dmnpk6HJ27XvD30vg-FaCZJg"
+      },
+      weap37: {
+        name: "StatTrak™ Glock-18 | Grinder FN",
+        price: 4.69,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0uL3djFN79eJl4-Cm_LwDLfYkWNF18lwmO7Eu4ihjFe2rUM4YW73I4_HewNvZQmE_lLtwui5hsS_6p6dmnpk6HJ27XvD30vg-FaCZJg"
+      },
+      weap38: {
+        name: "StatTrak™ XM1014 | Tranquility BS",
+        price: 7.93,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWNU6dNoteXA54vwxge2_BFuammlIdKQIwU5NQ7S-lm9we-8hcfu7p-cmnE36XEr5X-LlxKpwUYbIz3Bsbc"
+      },
+      weap39: {
+        name: "StatTrak™ XM1014 | Tranquility WW",
+        price: 13.07,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWZU7Mxkh9bN9J7yjRq1qEJoZ2_xJoTGdwU-NVqF-FK5ku7p1sK9uJnLmHFi6Cl34HnczEC3n1gSOQa4pUVU"
+      },
+      weap40: {
+        name: "StatTrak™ XM1014 | Tranquility FT",
+        price: 8.48,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWZU7Mxkh9bN9J7yjRq1qEJoZ2_xJoTGdwU-NVqF-FK5ku7p1sK9uJnLmHFi6Cl34HnczEC3n1gSOQa4pUVU"
+      },
+      weap41: {
+        name: "StatTrak™ XM1014 | Tranquility MW",
+        price: 14.73,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWdY781lteXA54vwxgTi-xZqYG77coPHd1dsZw6D_1Lvw7q9gZO96p6dz3oxsiAh5inenxGpwUYbnX3d0Ig"
+      },
+      weap42: {
+        name: "StatTrak™ XM1014 | Tranquility FN",
+        price: 29.99,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PDdTiVPvYznwL-IluX9J7rCqWdY781lteXA54vwxgTi-xZqYG77coPHd1dsZw6D_1Lvw7q9gZO96p6dz3oxsiAh5inenxGpwUYbnX3d0Ig"
+      },
+      weap43: {
+        name: "StatTrak™ SCAR-20 | Cardiac BS",
+        price: 6.94,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOguzA45XKhFWmrBZyajr0cYGTe1NraVCG_AK_lLrthcW6tMmfwCdjvyAn4nbemRPkg0tLa_sv26LiLhxSXQ"
+      },
+      weap44: {
+        name: "StatTrak™ SCAR-20 | Cardiac WW",
+        price: 6.71,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOh-zF_Jn4t1i1uRQ5fTqgd9eWcAA8Y1rY-FK-wbvv0cXvuJrKwHFnvCZx43yPmUDj00lMPLZxxavJjrohnxA"
+      },
+      weap45: {
+        name: "StatTrak™ SCAR-20 | Cardiac FT",
+        price: 8.20,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOh-zF_Jn4t1i1uRQ5fTqgd9eWcAA8Y1rY-FK-wbvv0cXvuJrKwHFnvCZx43yPmUDj00lMPLZxxavJjrohnxA"
+      },
+      weap46: {
+        name: "StatTrak™ SCAR-20 | Cardiac MW",
+        price: 13.25,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOhuDG_ZjKhFWmrBZyam-nLdeXdFVtMF7R_VO-xuzvjce0v5udzXBn7iYl4y2OzRfk1BseZ_sv26K4FaBPlw"
+      },
+      weap47: {
+        name: "StatTrak™ SCAR-20 | Cardiac FN",
+        price: 57.10,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7PDdTi5B7c7kxL-CmePxIa3UmH9Y58tOhuDG_ZjKhFWmrBZyam-nLdeXdFVtMF7R_VO-xuzvjce0v5udzXBn7iYl4y2OzRfk1BseZ_sv26K4FaBPlw"
+      },
+      weap48: {
+        name: "StatTrak™ P250 | Cartel BS",
+        price: 9.59,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j8NrrHj1Rd6dd2j6eSpdXx3lexrhZoZGr7IoecdgVvZg3V-VG-w-bnh5S7u5ufn3Ri7HZx-z-DyP2c95ga"
+      },
+      weap49: {
+        name: "StatTrak™ P250 | Cartel WW",
+        price: 9.70,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j5Nr_Yg2Zu5MRjjeyP8N-k3way-UM5NmCiLIeRIwQ4ZgvQq1O8k--7hp_vuZSdyXdrvnZx7WGdwUIdDe8uxA"
+      },
+      weap50: {
+        name: "StatTrak™ P250 | Cartel FT",
+        price: 9.12,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j5Nr_Yg2Zu5MRjjeyP8N-k3way-UM5NmCiLIeRIwQ4ZgvQq1O8k--7hp_vuZSdyXdrvnZx7WGdwUIdDe8uxA"
+      },
+      weap51: {
+        name: "StatTrak™ P250 | Cartel MW",
+        price: 14.17,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j4OrzZglRd6dd2j6fFo9_wiQXl_EpvZzigLNCcIwI-MA6F-lO5l7_r1Je4v5WdmyBivScl-z-DyIG61H2I"
+      },
+      weap52: {
+        name: "StatTrak™ P250 | Cartel FN",
+        price: 42.50,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhhwszYI2gS09-3hpSOm8j4OrzZglRd6dd2j6fFo9_wiQXl_EpvZzigLNCcIwI-MA6F-lO5l7_r1Je4v5WdmyBivScl-z-DyIG61H2I"
+      },
+      weap53: {
+        name: "StatTrak™ P2000 | Fire Elemental BS",
+        price: 56.31,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbJ8I3jkWu4qgE7Nnf2dtLGcQFrMFvV_lS2xu7ohpC06pzNynFn7iAmtyuIl0e_gRlIa-M6m7XAHkB_0hoA"
+      },
+      weap54: {
+        name: "StatTrak™ P2000 | Fire Elemental WW",
+        price: 59.84,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbM8Ij8nVmLpxIuNDztLYGcJFVoZF3X-gO2x7y808K8vZ2cwHYxsigh4C7emkfm1BxOb7M80eveFwtKPv5lvA"
+      },
+      weap55: {
+        name: "StatTrak™ P2000 | Fire Elemental FT",
+        price: 47.84,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbM8Ij8nVmLpxIuNDztLYGcJFVoZF3X-gO2x7y808K8vZ2cwHYxsigh4C7emkfm1BxOb7M80eveFwtKPv5lvA"
+      },
+      weap56: {
+        name: "StatTrak™ P2000 | Fire Elemental MW",
+        price: 65.98,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbN_Iv9nGu4qgE7NnfycYOSJgJqaA7RqVS_lOjuhsW9tZ_KynVk63En4CmMzRHlgUkeb7c8m7XAHtIREKva"
+      },
+      weap57: {
+        name: "StatTrak™ P2000 | Fire Elemental FN",
+        price: 116.46,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zLZAJSvozmxL-NnuXxDL7dk2ZU5tFwhtbN_Iv9nGu4qgE7NnfycYOSJgJqaA7RqVS_lOjuhsW9tZ_KynVk63En4CmMzRHlgUkeb7c8m7XAHtIREKva"
+      },
+      weap58: {
+        name: "StatTrak™ AK-47 | Wasteland Rebel BS",
+        price: 86.74,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLO77QgHJu5MRjjeyPp4ijjAW1_EBqMG_zcdOTcQJrNFvXqVi_xejqhp697ZSczycyuHEn42GdwUJmbl0i6g"
+      },
+      weap59: {
+        name: "StatTrak™ AK-47 | Wasteland Rebel WW",
+        price: 85.63,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLPr7Vn35c18lwmO7Eu9mhiwLnr0RvMWnxLdedIwY4YFCC_lnrk-28h5K675rIyntj6ygl4HnD30vgkRiUzqw"
+      },
+      weap60: {
+        name: "StatTrak™ AK-47 | Wasteland Rebel FT",
+        price: 94.84,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLPr7Vn35c18lwmO7Eu9mhiwLnr0RvMWnxLdedIwY4YFCC_lnrk-28h5K675rIyntj6ygl4HnD30vgkRiUzqw"
+      },
+      weap61: {
+        name: "StatTrak™ AK-47 | Wasteland Rebel MW",
+        price: 165.51,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLP7LWnn9u5MRjjeyP89z2i1KxrhJkMm3wJtedcFVoZQ6C_Qe-xe_u1JG-uMmbm3ZgviUrtGGdwULRVQuqfg"
+      },
+      weap62: {
+        name: "StatTrak™ AK-47 | Wasteland Rebel FN",
+        price: 757.50,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszcYzRA-cizq4GAw6DLP7LWnn9u5MRjjeyP89z2i1KxrhJkMm3wJtedcFVoZQ6C_Qe-xe_u1JG-uMmbm3ZgviUrtGGdwULRVQuqfg"
+      }
+	}
+  }
 };
 
 
