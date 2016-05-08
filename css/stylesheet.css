@@ -971,13 +971,6 @@ html, body {
 	overflow-x: hidden;
 }
 
-.audioContainer {
-	display: none;
-	height: 100%;
-	width: 100%;
-	overflow-y: auto;
-	overflow-x: hidden;
-}
 
 .coinContainer {
 	display: none;
@@ -1193,8 +1186,8 @@ div.knife {
 	color: #fff;
 	position: absolute;
 	right: 0;
-	top: 50px;
-	width: 575px;
+	top: 49px;
+	width: 580px;
 	background: #1A2929;
 	border-bottom: 1px #186144 solid;
 	z-index: 1;
@@ -1212,7 +1205,7 @@ div.knife {
 }
 
 .settingsList.hidden {
-	top: -200px;
+	top: -350px;
 }
 
 #canvas {
