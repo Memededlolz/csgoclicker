@@ -1,4 +1,4 @@
-var chosenGames = ["Minecraft", "Creative", "Counter-Strike: Global Offensive", "Dark Souls III", "League of Legends", ""];
+var chosenGames = ["Minecraft", "Creative", "Counter-Strike: Global Offensive", "Dark Souls III", "League of Legends", "Call of Duty: Black Ops III"];
 var chosenUsers = ["jamalizcool", "joshog", "summit1g", "stronglegss", "xbiocsgo", "iamtinyy", "mlg", "vinesauce", "esl_csgo", "swiftor"];
 
 function addUserBox (name, init) {
