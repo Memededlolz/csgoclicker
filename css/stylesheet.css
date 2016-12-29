@@ -169,6 +169,16 @@ html, body {
 	opacity: 1;
 }
 
+.unboxing2 {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+}
+
 .tooltipAnchor {
 	display: none;
 	position: absolute;
@@ -1205,7 +1215,7 @@ div.knife {
 }
 
 .settingsList.hidden {
-	top: -350px;
+	top: -400px;
 }
 
 #canvas {

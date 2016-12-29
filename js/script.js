@@ -45,7 +45,8 @@ var operationCases = {
   case16: {name: "Shadow Case", price: 0.05, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FF4u1qubIW4Su4mzxYHbzqGtZ-KGlz8EuJcg3rnE9NiijVe3_UY-Zzr2JJjVLFEEeiQRtg" },
   case17: {name: "Revolver Case", price: 0.04, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYwnfKfcG9HvN7iktaOkqD1auLTxD5SvZYgiLvFpo7xjVLh-kdrYWnzcoGLMlhpsyM-5vg" },
   case18: {name: "Operation Wildfire Case", price: 0.06, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYxnaeQImRGu4S1x9TawfSmY-iHkmoD7cEl2LiQpIjz3wPl_ERkYWHwLY-LMlhp9pkR_UQ" },
-  case19: {name: "Chroma 3 Case", price: 1.29, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYynaSdJGhE74y0wNWIw_OlNuvXkDpSuZQmi--SrN-h3gey-Uo6YWmlIoCLMlhplhFFvwI" }
+  case19: {name: "Chroma 3 Case", price: 1.29, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYynaSdJGhE74y0wNWIw_OlNuvXkDpSuZQmi--SrN-h3gey-Uo6YWmlIoCLMlhplhFFvwI" },
+  case20: {name: "Gamma Case", price: 0.47, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFYznarJJjkQ6ovjw4SPlfP3auqEl2oBuJB1j--WoY322QziqkdpZGr3IteLMlhpw4RJCv8" }
 }
 
 var knives = {
@@ -1434,6 +1435,13 @@ var knives = {
 	knife54: {name: "✯ StatTrak™ Bowie Knife | Urban Masked FT", price: 110.59, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJh5C0g_bkNoTEhGlQ5vp8j-3I4IHKhFWmrBZyYG3yLITGIQ5qN1nW_1Xoxr3shp_pu5jAziRjvSAk7H6Omx20gk1FOPsv26LsGCteJg"},
 	knife55: {name: "✯ StatTrak™ Bowie Knife | Urban Masked MW", price: 171.89, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJh5C0g_bkNoTEhGlQ5vp9g-7J4bP5iUazrl0_YGDzINOdcwBsNwvT-gLqwO3v1JHtvZXPzCc1uSdz5n2IyxW0hRtIcKUx0k4sDK_g"},
 	knife56: {name: "✯ StatTrak™ Bowie Knife | Urban Masked FN", price: 2870.00, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJh5C0g_bkNoTEhGlQ5vp9g-7J4bP5iUazrl0_YGDzINOdcwBsNwvT-gLqwO3v1JHtvZXPzCc1uSdz5n2IyxW0hRtIcKUx0k4sDK_g"}	
+  },
+  gamma: {
+    knife1: {name: "✯ Bayonet | Lore BS", price: 255.99, img: "http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7unm5Q_txOhujT8om73FGwqRA4ZmygI4XGcAA9ZV2B_Fntwenuh8C1vMzIyCA27CEm53vbnAv33083_lkM8g"},
+	knife2: {name: "✯ Bayonet | Lore WW", price: 241.39, img: "http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7um25V4dB8teXA54vwxlXs_BVpZz-ldYbDcwJsaAzUqATswu3v08Xo7syYyHphvCcm43iOnUCpwUYbyMGRBAc"},
+	knife3: {name: "✯ Bayonet | Lore FT", price: 269.99, img: "http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7um25V4dB8teXA54vwxlXs_BVpZz-ldYbDcwJsaAzUqATswu3v08Xo7syYyHphvCcm43iOnUCpwUYbyMGRBAc"},
+	knife4: {name: "✯ Bayonet | Lore MW", price: 685.00, img: "http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7ummJW4NFOhujT8om72wPmqEQ5YzygIoORJAVsNF2E_1Lryem818Tt756Ym3NlunMqtnjbygv3309GNM5LHA"},
+	knife5: {name: "✯ Bayonet | Lore FN", price: 888.75, img: "http://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zLZAJA7cW5moWfqPv7Ib7ummJW4NFOhujT8om72wPmqEQ5YzygIoORJAVsNF2E_1Lryem818Tt756Ym3NlunMqtnjbygv3309GNM5LHA"}
   },
 }
 
@@ -14072,7 +14080,9 @@ var cases = {
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf0Ob3czRY49KJl5WZhPLLP7LWnn8f65Qoie-Urdjx21Hm8xc-Z2DyINKUdwM3MgzT8la3yOfrgJG1uJmdwWwj5Hfykm1Yuw"
       }
 	}
-  }
+  },
+ case15: {
+	}
 };
 
 
@@ -14162,6 +14172,8 @@ function randSkin() {
            knifeCase = "bowie";         
 		 } else if (currentCase === "case18") {
            knifeCase = "bowiest";
+		 } else if (currentCase === "case20") {
+           knifeCase = "gamma";
          } else {
            knifeCase = "regular";
          }
@@ -14246,7 +14258,7 @@ function drawInventory() {
 
   for (var i = 0; i < keys.length; i++) {
     var rarity = atob(inventory[keys[i]]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-    if (rarity === "regular" || rarity === "butterst" || rarity === "falchionst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchion") {
+    if (rarity === "regular" || rarity === "butterst" || rarity === "falchionst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "gamma" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchion") {
       rarity = "knife";
     }
     var item = eval(atob(inventory[keys[i]]));
@@ -14572,7 +14584,6 @@ $(".caseContainer").on('click', '.case', function() {
   caseInfo();
 });
 
-
 /*===============JACKPOT===============*/
 var jackpotUnlocked = true;
 var jackpotInProgress = false;
@@ -14630,7 +14641,7 @@ $(".jackpotRightStartButton").click(function() {
 function drawJackpotSwapItem(name, price, img, id) {
       var keys = Object.keys(inventory);
       var rarity = atob(inventory[id]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-      if (rarity === "regular" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "bowie" || rarity === "bowiest" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
+      if (rarity === "regular" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "gamma" || rarity === "huntst" || rarity === "butterfly" || rarity === "bowie" || rarity === "bowiest" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
         rarity = "knife";
       }
 
@@ -14644,7 +14655,7 @@ function drawJackpotSwapItem(name, price, img, id) {
 function drawSwappedItem(name, price, img, id) {
       var keys = Object.keys(inventory);
       var rarity = atob(inventory[id]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-      if (rarity === "regular" || rarity === "falchionst" || rarity === "bowie" || rarity === "bowiest" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
+      if (rarity === "regular" || rarity === "falchionst" || rarity === "bowie" || rarity === "bowiest" || rarity === "butterst" || rarity === "chromast" || rarity === "gamma" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
         rarity = "knife";
       }
 
@@ -14667,7 +14678,7 @@ function drawSwapInventory() {
 
   for (var i = 0; i < keys.length; i++) {
     var rarity = atob(inventory[keys[i]]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-    if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
+    if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "gamma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
       rarity = "knife";
     }
     var item = eval(atob(inventory[keys[i]]));
@@ -14836,7 +14847,7 @@ function jackpotStart() {
 
     for (var i = 0; i < keys.length; i++) {
       var rarity = atob(pot[keys[i]]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-      if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
+      if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "gamma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
         rarity = "knife";
       }
       var item = eval(atob(pot[keys[i]]));
@@ -15061,7 +15072,7 @@ function jackpotStart() {
     var keys = Object.keys(pot);
     for (var i = 0; i < keys.length; i++) {
       var rarity = atob(pot[keys[i]]).replace(/\[[^\[]*$/g, "").match(/\[[^\[]*$/g).toString().match(/\b\w*\b/)[0];
-      if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
+      if (rarity === "regular" || rarity === "bowie" || rarity === "bowiest" || rarity === "falchionst" || rarity === "butterst" || rarity === "chromast" || rarity === "chroma" || rarity === "gamma" || rarity === "huntsman" || rarity === "huntst" || rarity === "butterfly" || rarity === "shadow" || rarity === "shadowst" || rarity === "falchion") {
         rarity = "knife";
       }
       var item = eval(atob(pot[keys[i]]));
@@ -15303,7 +15314,27 @@ function drawOrder() {
 }
 drawOrder();
 */
+/*function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+*/
 function init() {
   loadGameState();
   caseInfo();
