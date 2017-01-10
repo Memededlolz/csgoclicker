@@ -1295,14 +1295,14 @@
   (function(window, document, Chartist) {
     'use strict';
 
-    var svgNs = '/web/20161206141125/http://www.w3.org/2000/svg',
-      xmlNs = '/web/20161206141125/http://www.w3.org/2000/xmlns/',
-      xhtmlNs = '/web/20161206141125/http://www.w3.org/1999/xhtml';
+    var svgNs = 'http://www.w3.org/2000/svg',
+      xmlNs = 'http://www.w3.org/2000/xmlns/',
+      xhtmlNs = 'http://www.w3.org/1999/xhtml';
 
     Chartist.xmlNs = {
       qualifiedName: 'xmlns:ct',
       prefix: 'ct',
-      uri: '/web/20161206141125/http://gionkunz.github.com/chartist-js/ct'
+      uri: 'http://gionkunz.github.com/chartist-js/ct'
     };
 
     /**
@@ -1799,7 +1799,7 @@
      * @return {Boolean} True of false if the feature is supported or not
      */
     Chartist.Svg.isSupported = function(feature) {
-      return document.implementation.hasFeature('www./web/20161206141125/http://w3.org/TR/SVG11/feature#' + feature, '1.1');
+      return document.implementation.hasFeature('http://w3.org/TR/SVG11/feature#' + feature, '1.1');
     };
 
     /**
