@@ -50,7 +50,7 @@ app.use(passport.session());
 app.use('/static', express.static('./static'));
 // Routes
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/CSGO.html');
+    res.sendFile(__dirname + 'CSGO.html');
 });
 // Auth Routes
 app.get('/auth/steam',
